@@ -3,7 +3,7 @@ import json
 from base64 import b64decode, b64encode
 
 prompt = input('The prompt: ')
-openai.api_key = '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'
+openai.api_key = 'API_KEY'
 
 response = openai.Image.create(
     prompt=prompt,
